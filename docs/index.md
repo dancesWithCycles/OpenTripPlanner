@@ -17,7 +17,7 @@ Several versions of this documentation are built and published automatically for
 
 # Audience
 
-The end users of OTP are the millions of people who rely on it to help plan their daily travel, often without even knowing they are using OTP. As an infrastructure component, installation and configuration of OTP tends to be somewhat technical and essentially invisible to those end users. This documentation is indended for people who wish to perform such deployments of OTP without necessarily diving into the internal details of the software.
+The end users of OTP are the millions of people who rely on it to help plan their daily travel, often without even knowing they are using OTP. As an infrastructure component, installation and configuration of OTP tends to be somewhat technical and essentially invisible to those end users. This documentation is intended for people who wish to perform such deployments of OTP without necessarily diving into the internal details of the software.
 
 For members of the OTP community interested in software development, additional documentation detailing algorithms, data structures etc. is available as markdown files within the source code packages. It can be read in your IDE or when browsing the source tree on Github. For example, `https://github.com/opentripplanner/OpenTripPlanner/blob/dev-2.x/src/main/java/org/opentripplanner/transit/raptor/README.md`. 
  
