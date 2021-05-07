@@ -86,7 +86,7 @@ This will produce a file called `graph.obj` in the same directory as the inputs.
 
     $ java -Xmx2G -jar otp-2.0.0-rc1-shaded.jar --load .
 
-Another reason to perform these two phases separately is that the building process loads the entire GTFS and OSM data sets into memory, so can require significantly more memory than just running a server. Accordingly, you may want to perform the build on one machine (e.g. a throw-away cloud instance with more memory or compute capacity), then copy the resulting graph file to one or more smaller machines to serve the API.
+Another reason to perform these two phases separately is that the building process loads the entire GTFS and OSM data sets into memory, requiring significantly more memory than just running a server. Accordingly, you may want to perform the build on one machine (e.g. a throw-away cloud instance with more memory or compute capacity), then copy the resulting graph file to one or more smaller machines to serve the API.
 
 ## Layering GTFS onto OSM
 
