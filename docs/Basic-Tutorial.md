@@ -107,7 +107,7 @@ Finally, the server can be started using the `--load` parameter:
 
 ## Command Line Switches
 
-The flow diagram below summarizes all the command line switches used in the above examples, and how they control which actions are taken when OTP starts up.
+The flow diagram below summarizes all the command line switches used in the above examples and how they control which actions are taken when OTP starts up.
 
 ![Command-Line-Parameter-Flow](images/cli-flow.svg)
 
