@@ -82,7 +82,7 @@ If you want to speed up the process of repeatedly starting up a server with the 
 
     $ java -Xmx2G -jar otp-2.0.0-rc1-shaded.jar --build --save .
 
-This will produce a file called `graph.obj` in the same directory as the inputs. The server can then be started later using the `--load` parameter, and will read this file instead of building the graph from scratch:
+This will produce a file called `graph.obj` in the same directory as the inputs. The server can then be started later using the `--load` parameter and will read this file instead of building the graph from scratch:
 
     $ java -Xmx2G -jar otp-2.0.0-rc1-shaded.jar --load .
 
