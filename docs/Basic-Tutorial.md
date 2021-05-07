@@ -78,7 +78,7 @@ the developer tools in your web browser. OTP's built-in web server will run by d
 
 ## Saving a Graph
 
-If you want speed up the process of repeatedly starting up a server with the same graph, you can build a graph from street and transit data then save it to a file using the `--build` and `--save` command line parameters together. If for example your current working directory (`.`) contains the input files and the OTP JAR file, you can use this command:
+If you want to speed up the process of repeatedly starting up a server with the same graph, you can build a graph from street and transit data then save it to a file using the `--build` and `--save` command line parameters together. If for example your current working directory (`.`) contains the input files and the OTP JAR file, you can use this command:
 
     $ java -Xmx2G -jar otp-2.0.0-rc1-shaded.jar --build --save .
 
