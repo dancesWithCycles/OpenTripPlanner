@@ -90,7 +90,7 @@ Another reason to perform these two phases separately is that the building proce
 
 ## Layering GTFS onto OSM
 
-Building the street graph (especially with elevation data) can take a long time. It is common for transit data to change more frequently than street data, so it can be convenient to build the street graph once, and then layer transit data on top of the streets to make the final graph.
+Building the street graph (especially with elevation data) can take a long time. It is common for transit data to change more frequently than street data, so it can be convenient to build the street graph once and then layer transit data on top of the streets to make the final graph.
 
 Again assuming the input files and OTP JAR file are in the current working directory, you can build a street graph with OSM and elevation data only (ignoring transit input files) with this command:
 
